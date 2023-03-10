@@ -17,6 +17,17 @@ body {
   z-index: 2;
 }
 
+.montanha-atras {
+  background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255));
+  height: 300px;
+  left: 110px;
+  position: absolute;
+  top: 225px;
+  transform: rotate(45deg);
+  width: 300px;
+  z-index: 1;
+}
+
 .pinguim {
   height: 300px;
   margin: auto;
