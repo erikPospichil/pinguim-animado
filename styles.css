@@ -28,6 +28,16 @@ body {
   z-index: 1;
 }
 
+.sol {
+  background-color: yellow;
+  border-radius: 50%;
+  height: 200px;
+  position: absolute;
+  right: -75px;
+  top: -75px;
+  width: 200px;
+}
+
 .pinguim {
   height: 300px;
   margin: auto;
