@@ -98,12 +98,12 @@ body {
   width: 15%;
 }
 
-.olho.esquerda {
-  left: 25%;
-}
-
 .olho.direita {
   right: 25%;
+}
+
+.olho.esquerda {
+  left: 25%;
 }
 
 .palpebra {
@@ -113,6 +113,22 @@ body {
   left: -23%;
   top: 25%;
   width: 150%;
+}
+
+.bochecha {
+  background-color: pink;
+  border-radius: 50%;
+  height: 10%;
+  top: 65%;
+  width: 15%;
+}
+
+.bochecha.esquerda {
+  left: 15%;
+}
+
+.bochecha.direita {
+  right: 15%;
 }
 
 .pinguim-corpo {
