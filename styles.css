@@ -131,6 +131,24 @@ body {
   right: 15%;
 }
 
+.bico {
+  background-color: orange;
+  border-radius: 50%;
+  height: 10%;
+}
+
+.bico.cima {
+  width: 20%;
+  top: 60%;
+  left: 40%;
+}
+
+.bico.baixo {
+  width: 16%;
+  top: 65%;
+  left: 42%;
+}
+
 .pinguim-corpo {
   background: linear-gradient(
     45deg,
