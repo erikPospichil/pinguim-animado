@@ -61,6 +61,22 @@ body {
   z-index: 1;
 }
 
+.rosto {
+  background-color: white;
+  border-radius: 70% 70% 60% 60%;
+  height: 70%;
+  top: 15%;
+  width: 60%;
+}
+
+.rosto.esquerda {
+  left: 5%;
+}
+
+.rosto.direita {
+  right: 5%;
+}
+
 .pinguim-corpo {
   background: linear-gradient(
     45deg,
