@@ -47,6 +47,10 @@ body {
   z-index: 4;
 }
 
+.pinguim * {
+  position: absolute;
+}
+
 .pinguim-cabeca {
   background: linear-gradient(45deg, gray, rgb(239, 240, 228));
   border-radius: 70% 70% 65% 65%;
@@ -71,8 +75,16 @@ body {
   width: 53%;
 }
 
-.pinguim * {
+.pinguim-corpo::before {
+  background-color: gray;
+  border-radius: 0% 0% 100% 100%;
+  content: "";
+  height: 45%;
+  left: 25%;
+  opacity: 70%;
   position: absolute;
+  top: 10%;
+  width: 50%;
 }
 
 .chao {
