@@ -90,6 +90,31 @@ body {
   width: 90%;
 }
 
+.olho {
+  background-color: black;
+  border-radius: 50%;
+  height: 17%;
+  top: 45%;
+  width: 15%;
+}
+
+.olho.esquerda {
+  left: 25%;
+}
+
+.olho.direita {
+  right: 25%;
+}
+
+.palpebra {
+  background-color: var(--pinguim-rosto);
+  border-radius: 50%;
+  height: 100%;
+  left: -23%;
+  top: 25%;
+  width: 150%;
+}
+
 .pinguim-corpo {
   background: linear-gradient(
     45deg,
