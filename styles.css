@@ -1,5 +1,6 @@
 :root {
   --pinguim-rosto: white;
+  --pinguim-pebico: orange;
 }
 
 body {
@@ -132,7 +133,7 @@ body {
 }
 
 .bico {
-  background-color: orange;
+  background-color: var(--pinguim-pebico);
   border-radius: 50%;
   height: 10%;
 }
@@ -173,6 +174,25 @@ body {
   position: absolute;
   top: 10%;
   width: 50%;
+}
+
+.pe {
+  background-color: var(--pinguim-pebico);
+  border-radius: 50%;
+  height: 30%;
+  top: 85%;
+  width: 15%;
+  z-index: -1;
+}
+
+.pe.direita {
+  right: 25%;
+  transform: rotate(-80deg);
+}
+
+.pe.esquerda {
+  left: 25%;
+  transform: rotate(80deg);
 }
 
 .chao {
